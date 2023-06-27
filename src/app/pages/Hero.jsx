@@ -12,7 +12,7 @@ export default function Hero() {
               className="object-cover"
             />
             <img
-              className="absolute top-[170px] md:top-[160px] lg:top-[150px] lg:left-[40px] ml-[40px] lg:ml-0  rounded-full aspect-square border-4 border-text-1 w-[100px] lg:w-[150px]"
+              className="absolute top-[170px] md:top-[160px] lg:top-[150px] lg:left-[40px] ml-[24px] lg:ml-0  rounded-full aspect-square border-4 border-text-1 w-[100px] lg:w-[150px]"
               src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg"
               alt="Jhey"
             />
