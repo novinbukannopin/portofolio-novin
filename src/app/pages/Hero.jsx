@@ -127,7 +127,6 @@ export default function Hero() {
         </div>
         <div className="lg:mx-6">
           <div className="px-[24px] lg:px-[40px]">
-            {/* <IconTabs />     */}
             <FullWidthTabs />
           </div>
         </div>

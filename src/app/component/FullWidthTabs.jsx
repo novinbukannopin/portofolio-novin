@@ -1,15 +1,12 @@
 "use client";
 
 import { Tabs } from "flowbite-react";
-import { HiAdjustments, HiClipboardList, HiUserCircle } from "react-icons/hi";
+import { HiClipboardList, HiUserCircle } from "react-icons/hi";
 import { MdDashboard } from "react-icons/md";
 
 export default function FullWidthTabs() {
   return (
-    <Tabs.Group
-      aria-label="Full width tabs"
-      // style="fullWidth"
-    >
+    <Tabs.Group aria-label="Full width tabs">
       <Tabs.Item icon={HiUserCircle} title="Profile">
         <p>
           This is
@@ -33,7 +30,7 @@ export default function FullWidthTabs() {
         </p>
       </Tabs.Item>
 
-      <Tabs.Item icon={HiClipboardList} title="Contacts" color="ffffff">
+      <Tabs.Item icon={HiClipboardList} title="Contacts">
         <p>
           This is
           <span className="font-medium text-gray-800 dark:text-white">
