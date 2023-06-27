@@ -1,5 +1,5 @@
 import React from "react";
-
+import FullWidthTabs from "../component/FullWidthTabs";
 export default function Hero() {
   return (
     <div className="dark:bg-brand">
@@ -60,7 +60,7 @@ export default function Hero() {
                 Speaker. Ex-Google
               </p>
             </div>
-            <span className="mt-4 flex gap-x-4 items-center dark:text-white text-black flex-wrap text-text-4">
+            <span className="mt-4 flex   flex-col md:flex-row lg:flex-row gap-x-4 gap-y-2  dark:text-white text-black      text-text-4">
               <span className="flex items-center gap-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -123,6 +123,12 @@ export default function Hero() {
                 <span class="whitespace-nowrap">Joined Jan 2023</span>
               </span>
             </span>
+          </div>
+        </div>
+        <div className="lg:mx-6">
+          <div className="px-[24px] lg:px-[40px]">
+            {/* <IconTabs />     */}
+            <FullWidthTabs />
           </div>
         </div>
       </div>
