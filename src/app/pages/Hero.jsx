@@ -17,7 +17,7 @@ export default function Hero() {
               alt="Jhey"
             />
           </div>
-          <div className="dark:bg-brand  bg-white pt-[70px] lg:pt-[30px] px-[40px] pb-[50px]">
+          <div className="dark:bg-brand  bg-white pt-[70px] lg:pt-[30px] px-[24px] lg:px-[40px] pb-[50px]">
             <div className="flex justify-between items-center sm:pt-[20px] lg:pt-[60px]">
               <h1 className="text-3xl dark:text-white text-black flex items-center font-bold">
                 Novin Ardian Y.
